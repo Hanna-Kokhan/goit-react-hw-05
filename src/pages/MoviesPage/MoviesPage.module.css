@@ -1,0 +1,33 @@
+.main {
+  width: 1200px;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.loadMoreBtn {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loadMoreBtn:hover {
+  background-color: #444;
+  color: #ef6103;
+}
+
+.message {
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 25px;
+  color: #000;
+}

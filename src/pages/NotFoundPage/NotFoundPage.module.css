@@ -1,0 +1,34 @@
+.wrapper {
+  min-height: 100vh;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 120px;
+  text-align: center;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ff6b08;
+}
+
+.link {
+  font-size: 20px;
+  width: 120px;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: #444;
+  color: #ef6103;
+}
