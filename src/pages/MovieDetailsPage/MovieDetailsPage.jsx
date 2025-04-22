@@ -91,10 +91,18 @@ const MovieDetailsPage = () => {
       </div>
 
       <div className={css.links}>
-        <Link to="cast" className={css.link}>
+        <Link
+          to="cast"
+          state={{ from: backLinkRef.current }}
+          className={css.link}
+        >
           Cast
         </Link>
-        <Link to="reviews" className={css.link}>
+        <Link
+          to="reviews"
+          state={{ from: backLinkRef.current }}
+          className={css.link}
+        >
           Reviews
         </Link>
       </div>
